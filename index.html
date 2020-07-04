@@ -612,8 +612,8 @@
                     <a href="#" class="dropdown-item">Third</a>
                 </div>
             </div>
-        </div>
             </div>
+        </div>
             
 
         <div class="row">
@@ -651,6 +651,40 @@
                 </div>
             </div>
 
+        </div>
+
+        <div class="row r_custom">
+            <div class="col-md-12 bg-primary">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-light">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-light" data-toggle="dropdown">     Option
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item"> Drop1</a>
+                                <a href="#" class="dropdown-item"> Drop2</a>
+                                <a href="#" class="dropdown-item"> Drop3</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-light" data-toggle="dropdown">    
+                                Contracts
+                            </a>
+                            <div class="dropdown-menu">
+                                <a href="#" class="dropdown-item"> Facebook</a>
+                                <a href="#" class="dropdown-item"> Gmail</a>
+                                <a href="#" class="dropdown-item"> Linked In</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-- Dorpdown -->
@@ -696,7 +730,153 @@
         </form>
         </div> 
         </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="card card-body">
+                    <div class="form-group">
+                        <label for="#">Email</label>
+                        <input type="text" readonly class="form-control-plaintext form-control-sm" placeholder="name@yahoo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="#">Example Select</label>
+                        <select class="form-control form-control-lg">
+                            <option class="active">1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="#">Read Only</label>
+                        <input type="text" class="form-control" readonly placeholder="THis is a readonly file">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="row r_custom">
+            <div class="col-md-8">
+                <div class="card">
+                    <form class="form-inline">
+                        <div class="form-group mx-2">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group mx-2">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <form >
+                    <div class="form-check">
+                        <input type="radio" name="radios" class="form-check-input" value="op">
+                        <label class="form-check-label">Default Radio</label>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="radios" value="op">
+                        <label class="form-check-label">Default Radio</label>
+                    </div>
+
+                </form>                
+            </div>
+                
+            </div>    
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body">
+                <form>
+                    <div class="form-row">
+                    <div class="col-md-6">
+                        <label>First Name</label>
+                        <input type="text" class="form-control is-valid" value="Mark" required>
+                        <div class="valid-feedback">
+                            Looks Good
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label>Last Name</label>
+                        <input type="text" class="form-control is-valid" value="Jon" required>
+                        <div class="valid-feedback">
+                            Looks Good
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <label for="#">City</label>
+                        <input type="text" class="form-control is-invalid" value="dhaka" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid city.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="#">State</label>
+                        <select class="custom-select is-invalid" required>
+                            <option>Select</option>
+                            <option>...</option>
+
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid state.
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label for="#">Zip Code</label>
+                        <input type="number" class="form-control is-invalid" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid Zip.
+                        </div>
+                    </div>
+                
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-control-input is-invalid" required="">
+                            <label class="form-check-label">Agree to our<a href="#" class="btn btn-link">Terms</a></label>
+
+                            <div class="invalid-feedback">
+                                Please agree to our terms
+                            </div>
+                        </div>
+
+                        <div class="custom-control custom-switch">
+                          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                          <label class="custom-control-label" for="customSwitch1">
+                            Toggle this switch
+                          </label>
+                        </div>
+
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input">
+                            <label class="custom-file-label">Choose your file</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-info">Submit</button>
+
+                </form>
+                </div>
+            </div>
+           
+        </div>
+
     </div>
+
+
     
     <!-- Form -->
     
